@@ -1,0 +1,167 @@
+{
+  "uid" : "2dacfb290a6f4c4d",
+  "name" : "Login into the application with invalid password",
+  "title" : "Login into the application with invalid password",
+  "time" : {
+    "start" : 1653803962636,
+    "stop" : 1653803969182,
+    "duration" : 6546
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "1383e681b721ae59",
+    "name" : "As a user I should be able to login and logout with valid credentials",
+    "title" : "As a user I should be able to login and logout with valid credentials"
+  },
+  "steps" : [ {
+    "name" : "Given I am on the Login page URL \"http://the-internet.herokuapp.com\"",
+    "title" : "Given I am on the Login page URL \"http://the-internet.herokuapp.com\"",
+    "time" : {
+      "start" : 1653803964053,
+      "stop" : 1653803966522,
+      "duration" : 2469
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I click on Form Authendication and wait for login page",
+    "title" : "Then I click on Form Authendication and wait for login page",
+    "time" : {
+      "start" : 1653803966523,
+      "stop" : 1653803967390,
+      "duration" : 867
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I should see LogIn Page",
+    "title" : "Then I should see LogIn Page",
+    "time" : {
+      "start" : 1653803967390,
+      "stop" : 1653803967438,
+      "duration" : 48
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I enter username as \"smith\"",
+    "title" : "When I enter username as \"smith\"",
+    "time" : {
+      "start" : 1653803967438,
+      "stop" : 1653803967520,
+      "duration" : 82
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I enter password as \"SuperSecret\"",
+    "title" : "And I enter password as \"SuperSecret\"",
+    "time" : {
+      "start" : 1653803967520,
+      "stop" : 1653803967619,
+      "duration" : 99
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And click on login button",
+    "title" : "And click on login button",
+    "time" : {
+      "start" : 1653803967619,
+      "stop" : 1653803968263,
+      "duration" : 644
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I got error message",
+    "title" : "Then I got error message",
+    "time" : {
+      "start" : 1653803968264,
+      "stop" : 1653803968324,
+      "duration" : 60
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "attachment2",
+    "source" : "b7bb5bf3-8c54-4fd2-8028-8157663bc866-attachment.png",
+    "type" : "image/png",
+    "size" : 99979,
+    "uid" : "be93e089b69a70ae"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "As a user I should be able to login and logout with valid credentials"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a user I should be able to login and logout with valid credentials"
+  }, {
+    "name" : "story",
+    "value" : "Login into the application with invalid password"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O2PFH35H"
+  }, {
+    "name" : "thread",
+    "value" : "14196@LAPTOP-O2PFH35H.main(1)"
+  } ],
+  "parameters" : [ ]
+}

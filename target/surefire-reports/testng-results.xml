@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="23441" started-at="2022-05-29T05:59:05Z" finished-at="2022-05-29T05:59:29Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@ecfbe91]" name="feature" class="com.cucumberFramework.testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression Test" duration-ms="23441" started-at="2022-05-29T05:59:05Z" finished-at="2022-05-29T05:59:29Z">
+      <class name="com.cucumberFramework.testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@ecfbe91]" name="setUpClass" is-config="true" duration-ms="403" started-at="2022-05-29T13:59:05Z" finished-at="2022-05-29T13:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@ecfbe91]" name="feature" duration-ms="22863" started-at="2022-05-29T13:59:06Z" description="Runs cucmber Features" data-provider="features" finished-at="2022-05-29T13:59:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[As a user I should be able to login and logout with valid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:com.cucumberFramework.testRunner.TestRunner@ecfbe91]" name="testDownClass" is-config="true" duration-ms="0" started-at="2022-05-29T13:59:29Z" finished-at="2022-05-29T13:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- com.cucumberFramework.testRunner.TestRunner -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

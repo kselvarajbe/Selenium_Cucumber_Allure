@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1653803946490" stop="1653803969183" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1653803946512" stop="1653803956158" status="passed">
+            <name>Login into the application with valid credentials</name>
+            <title>Login into the application with valid credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1653803949592" stop="1653803952499" status="passed">
+                    <name>Given I am on the Login page URL "http://the-internet.herokuapp.com"</name>
+                    <title>Given I am on the Login page URL "http://the-internet.herokuapp.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803952500" stop="1653803953464" status="passed">
+                    <name>Then I click on Form Authendication and wait for login page</name>
+                    <title>Then I click on Form Authendication and wait for login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803953464" stop="1653803953522" status="passed">
+                    <name>Then I should see LogIn Page</name>
+                    <title>Then I should see LogIn Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803953522" stop="1653803953613" status="passed">
+                    <name>When I enter username as "tomsmith"</name>
+                    <title>When I enter username as "tomsmith"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803953614" stop="1653803953720" status="passed">
+                    <name>And I enter password as "SuperSecretPassword!"</name>
+                    <title>And I enter password as "SuperSecretPassword!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803953720" stop="1653803954384" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803954386" stop="1653803954457" status="passed">
+                    <name>Then I am logged in</name>
+                    <title>Then I am logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803954457" stop="1653803955168" status="passed">
+                    <name>And I Click on Sign out</name>
+                    <title>And I Click on Sign out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803955168" stop="1653803955219" status="passed">
+                    <name>Then I got log out from the application and land on home page</name>
+                    <title>Then I got log out from the application and land on home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="21a2dc67-070e-464c-946a-5b5fbda6bdfb-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with valid credentials"/>
+                <label name="feature" value="As a user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="LAPTOP-O2PFH35H"/>
+                <label name="thread" value="14196@LAPTOP-O2PFH35H.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1653803956158" stop="1653803962636" status="passed">
+            <name>Login into the application with invalid username</name>
+            <title>Login into the application with invalid username</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1653803957523" stop="1653803959903" status="passed">
+                    <name>Given I am on the Login page URL "http://the-internet.herokuapp.com"</name>
+                    <title>Given I am on the Login page URL "http://the-internet.herokuapp.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803959903" stop="1653803960938" status="passed">
+                    <name>Then I click on Form Authendication and wait for login page</name>
+                    <title>Then I click on Form Authendication and wait for login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803960938" stop="1653803960996" status="passed">
+                    <name>Then I should see LogIn Page</name>
+                    <title>Then I should see LogIn Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803960996" stop="1653803961080" status="passed">
+                    <name>When I enter username as "smith"</name>
+                    <title>When I enter username as "smith"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803961080" stop="1653803961178" status="passed">
+                    <name>And I enter password as "SuperSecretPassword!"</name>
+                    <title>And I enter password as "SuperSecretPassword!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803961178" stop="1653803961789" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803961789" stop="1653803961848" status="passed">
+                    <name>Then I got error message</name>
+                    <title>Then I got error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="b4fa7e33-387a-4cfb-9305-6c5d741de21b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with invalid username"/>
+                <label name="feature" value="As a user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="LAPTOP-O2PFH35H"/>
+                <label name="thread" value="14196@LAPTOP-O2PFH35H.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1653803962636" stop="1653803969182" status="passed">
+            <name>Login into the application with invalid password</name>
+            <title>Login into the application with invalid password</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1653803964053" stop="1653803966522" status="passed">
+                    <name>Given I am on the Login page URL "http://the-internet.herokuapp.com"</name>
+                    <title>Given I am on the Login page URL "http://the-internet.herokuapp.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803966523" stop="1653803967390" status="passed">
+                    <name>Then I click on Form Authendication and wait for login page</name>
+                    <title>Then I click on Form Authendication and wait for login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803967390" stop="1653803967438" status="passed">
+                    <name>Then I should see LogIn Page</name>
+                    <title>Then I should see LogIn Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803967438" stop="1653803967520" status="passed">
+                    <name>When I enter username as "smith"</name>
+                    <title>When I enter username as "smith"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803967520" stop="1653803967619" status="passed">
+                    <name>And I enter password as "SuperSecret"</name>
+                    <title>And I enter password as "SuperSecret"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803967619" stop="1653803968263" status="passed">
+                    <name>And click on login button</name>
+                    <title>And click on login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1653803968264" stop="1653803968324" status="passed">
+                    <name>Then I got error message</name>
+                    <title>Then I got error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment2" source="b7bb5bf3-8c54-4fd2-8028-8157663bc866-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login into the application with invalid password"/>
+                <label name="feature" value="As a user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="LAPTOP-O2PFH35H"/>
+                <label name="thread" value="14196@LAPTOP-O2PFH35H.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

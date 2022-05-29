@@ -1,0 +1,83 @@
+{
+  "features" : [ {
+    "title" : "As a user I should be able to login and logout with valid credentials",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "ef02f20198c37235",
+      "title" : "Login into the application with valid credentials",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "e513df0f56d2d2f1",
+        "name" : "Login into the application with valid credentials",
+        "title" : "Login into the application with valid credentials",
+        "time" : {
+          "start" : 1653803946512,
+          "stop" : 1653803956158,
+          "duration" : 9646
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "184d7a735aef9a29",
+      "title" : "Login into the application with invalid username",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "35d5a40e927eca25",
+        "name" : "Login into the application with invalid username",
+        "title" : "Login into the application with invalid username",
+        "time" : {
+          "start" : 1653803956158,
+          "stop" : 1653803962636,
+          "duration" : 6478
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "57ab4ca96a9e9ef2",
+      "title" : "Login into the application with invalid password",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "2dacfb290a6f4c4d",
+        "name" : "Login into the application with invalid password",
+        "title" : "Login into the application with invalid password",
+        "time" : {
+          "start" : 1653803962636,
+          "stop" : 1653803969182,
+          "duration" : 6546
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

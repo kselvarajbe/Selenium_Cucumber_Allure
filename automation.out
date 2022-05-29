@@ -1,0 +1,30 @@
+2022-05-29 13:05:492 INFO  LoggerHelper:22 - Navigated to Home page
+2022-05-29 13:05:352 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2022-05-29 13:05:463 INFO  WaitHelper:24 - element is visible..
+2022-05-29 13:05:463 INFO  LoggerHelper:29 - Click Form Authendication
+2022-05-29 13:05:612 INFO  LoggerHelper:40 - Entered Username successfully
+2022-05-29 13:05:720 INFO  LoggerHelper:46 - Entered Password successfully
+2022-05-29 13:05:384 INFO  LoggerHelper:52 - Clicked Login Button
+2022-05-29 13:05:102 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2022-05-29 13:05:168 INFO  WaitHelper:24 - element is visible..
+2022-05-29 13:05:168 INFO  LoggerHelper:64 - Clicked Loginout Button
+2022-05-29 13:05:219 INFO  LoggerHelper:70 - Username field displayed successfully
+2022-05-29 13:05:219 INFO  ServiceHooks:43 - Login into the application with valid credentials is pass
+2022-05-29 13:05:903 INFO  LoggerHelper:22 - Navigated to Home page
+2022-05-29 13:05:855 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2022-05-29 13:05:922 INFO  WaitHelper:24 - element is visible..
+2022-05-29 13:05:922 INFO  LoggerHelper:29 - Click Form Authendication
+2022-05-29 13:05:80 INFO  LoggerHelper:40 - Entered Username successfully
+2022-05-29 13:05:178 INFO  LoggerHelper:46 - Entered Password successfully
+2022-05-29 13:05:788 INFO  LoggerHelper:52 - Clicked Login Button
+2022-05-29 13:05:848 INFO  LoggerHelper:76 - Error message displayed successfully
+2022-05-29 13:05:848 INFO  ServiceHooks:43 - Login into the application with invalid username is pass
+2022-05-29 13:05:522 INFO  LoggerHelper:22 - Navigated to Home page
+2022-05-29 13:05:333 INFO  WaitHelper:21 - waiting for element visibilityOf..
+2022-05-29 13:05:390 INFO  WaitHelper:24 - element is visible..
+2022-05-29 13:05:390 INFO  LoggerHelper:29 - Click Form Authendication
+2022-05-29 13:05:519 INFO  LoggerHelper:40 - Entered Username successfully
+2022-05-29 13:05:619 INFO  LoggerHelper:46 - Entered Password successfully
+2022-05-29 13:05:263 INFO  LoggerHelper:52 - Clicked Login Button
+2022-05-29 13:05:324 INFO  LoggerHelper:76 - Error message displayed successfully
+2022-05-29 13:05:324 INFO  ServiceHooks:43 - Login into the application with invalid password is pass
